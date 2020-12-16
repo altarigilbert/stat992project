@@ -8,7 +8,7 @@ This is the website containing all materials for the STAT 992 final project from
 
 - Using NFL game data from the 2006 through 2019 seasons, we fit different models to predict NFL game results. 
 - For predicting wins or losses, a penalized generalized linear model updated with data every week performs the best among candidate models
-- For predicting the point spread, a penalized linear model updated by season performs the best, though not quite good enough to turn a profit 
+- For predicting the margin of victory, a penalized linear model updated by season performs the best, though not quite good enough to turn a profit 
 
 # Models used
 
@@ -16,17 +16,43 @@ This is the website containing all materials for the STAT 992 final project from
 - Next, we added an L2 penalty to a generalized linear model with a logit link function, and updated it in two separate ways
 - The first method updated the model every season, and the second updated the model every week
 - Adding additional covariates to this model does not improve the accuracy
-- Next, a similar analysis was performed for the point spread using the same L2 penalty and using a Gaussian (identity) link function
+- Next, a similar analysis was performed to predict the margin of victory using the same L2 penalty and using a Gaussian (identity) link function
 
-# Summary and Charts
+# Key Tables and Charts
 
 <div class="figure" style="text-align: center">
 
-<img src="winn_loss_results.png" alt="Figure 1: Classification Model Accuracy for Predicting Wins and Losses"  />
+<img src="win_loss_results.png" alt="Figure 1: Model Classification Accuracy for Predicting Wins and Losses"  />
 
 <p class="caption">
 
-Figure 1: Classification Model Accuracy for Predicting Wins and Losses
+Figure 1: Model Classification Accuracy for Predicting Wins and Losses
+line
+
+</p>
+
+</div>
+
+<div class="figure" style="text-align: center">
+
+<img src="spread_line_results.png" alt="Figure 2: Model Classification Accuracy for Predicting Margin of Victory"  />
+
+<p class="caption">
+
+Figure 2: Model Classification Accuracy for Predicting Margin of Victory
+line
+
+</p>
+
+</div>
+
+<div class="figure" style="text-align: center">
+
+<img src="spread_line_by_season.png" alt="Figure 3: Predicting Margin of Victory by Season"  />
+
+<p class="caption">
+
+Figure 3: Figure 3: Predicting Margin of Victory by Season
 line
 
 </p>
