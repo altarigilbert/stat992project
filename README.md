@@ -12,8 +12,8 @@ This is the website containing all materials for the STAT 992 final project from
 
 # Models used
 
-- The Bradley-Terry model to predict the binary outcome variable of a pairwise comparison between teams (which is winning in this context) using the prior season's data as a training set 
-- Next, we added an L2 penalty to a generalized linear model with a logit link function, and updated it in two separate ways
+- The Bradley-Terry model was used to predict the binary outcome variable of a pairwise comparison between teams (which is winning in this context) using the prior season's data as a training set 
+- Next, we added an L2 penalty to a generalized linear model with a logit link function, and updated it in two separate ways:
   - The first method updated the model every season, and the second updated the model every week
   - Interestingly, adding additional covariates to this model such as the weather or the difference in number of days of rest between the teams does not improve the accuracy of the win-loss prediction
 - Next, a similar analysis was performed to predict the margin of victory using the same L2 penalty and using a Gaussian (identity) link function
