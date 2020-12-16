@@ -1,5 +1,5 @@
 # Welcome to our stat992project repo!
-This is the website containing all materials for the STAT 992 final project from the NFL game prediction team.
+This is the website containing all materials for the STAT 992 final project from the NFL game prediction team (Elina Choi, Shan Lu, and Steven Moen).
 - The final report is in stat992_project_report.pdf
 - The code for the analysis is in code.R
 - The data are in files game.csv and spread_to_odds.csv
@@ -20,3 +20,15 @@ This is the website containing all materials for the STAT 992 final project from
 
 # Summary and Charts
 
+<div class="figure" style="text-align: center">
+
+<img src="winn_loss_results.png" alt="Figure 1: Classification Model Accuracy for Predicting Wins and Losses"  />
+
+<p class="caption">
+
+Figure 1: Classification Model Accuracy for Predicting Wins and Losses
+line
+
+</p>
+
+</div>
