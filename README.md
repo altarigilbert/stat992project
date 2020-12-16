@@ -53,7 +53,7 @@ line
 
 <p class="caption">
 
-Figure 3: Figure 3: Predicting Margin of Victory by Season
+Figure 3: Predicting Margin of Victory by Season
 line
 
 </p>
