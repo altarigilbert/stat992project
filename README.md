@@ -1,4 +1,4 @@
-# stat992project
+# Welcome to our stat992project repo!
 This is the website containing all materials for the STAT 992 final project from the NFL game prediction team.
 - The final report is in stat992_project_report.pdf
 - The code for the analysis is in code.R
@@ -17,3 +17,6 @@ This is the website containing all materials for the STAT 992 final project from
 -- The first method updated the model every season, and the second updated the model every week
 -- Adding additional covariates to this model does not improve the accuracy
 - Next, a similar analysis was performed for the point spread using the same L2 penalty and using a Gaussian (identity) link function
+
+# Summary and Charts
+
